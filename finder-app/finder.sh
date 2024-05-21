@@ -34,8 +34,8 @@ then
 	X=$(find $FILESDIR -type f | wc -l)      # Amount of files in dir found.
 	
 	Y=$(grep -R -e "$SEARCHSTR" $FILESDIR | wc -l) # Total amount of matching lines found.
-
-	echo "The amount of files is ${X} and the amount of matching lines is ${Y}"
+	
+	echo "\nThe amount of files is ${X} and the amount of matching lines is ${Y}"
 	return 0
 else
 	echo "Something went wrong"

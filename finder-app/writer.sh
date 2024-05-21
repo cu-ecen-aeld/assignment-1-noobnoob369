@@ -26,7 +26,7 @@ then
 		printf "$WRITESTR" > $WRITEFILE
 	fi
 
-	echo "File sucessfull created/ overwritten. "
+	#echo "File sucessfull created/ overwritten. "
 	return 0
 else
 	echo "Something went wrong"
